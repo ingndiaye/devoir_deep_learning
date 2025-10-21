@@ -30,18 +30,10 @@ L’objectif est de démontrer l’impact du **transfert learning** sur la rapid
 
 1. **Cloner le projet ou copier le notebook :**
    ```bash
-   git clone <url_du_projet>
-   cd <nom_du_projet>
+   git https://github.com/ingndiaye/devoir_deep_learning.git 
    ```
-
-2. **Créer un environnement virtuel (optionnel mais recommandé) :**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # sous Linux/Mac
-   venv\Scripts\activate      # sous Windows
-   ```
-
-3. **Installer les dépendances :**
+ 
+2. **Installer les dépendances :**
    ```bash
    pip install -r requirements.txt
    ```
@@ -68,8 +60,3 @@ L’objectif est de démontrer l’impact du **transfert learning** sur la rapid
 **Abdourahmane Ndiaye**  
 TP Deep Learning – CNN Cats vs Dogs  
 DIT
-
-
-##  Références
-- [PyTorch Transfer Learning Tutorial](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
-- [Dataset Cats vs Dogs – Kaggle](https://www.kaggle.com/datasets/tongpython/cat-and-dog)
